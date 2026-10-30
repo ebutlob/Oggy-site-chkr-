@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: oggy-site-chkr
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8558886316:AAG3qGKnqX_o2nBb0NVRlM4E8B4oxRpCzKo
+      - key: OWNER_ID
+        value: "0"
+      - key: PYTHON_VERSION
+        value: "3.11.0"
