@@ -35,7 +35,7 @@ from aiogram.types import (
 
 # ─────────────────── CONFIGURATION ───────────────────
 BOT_TOKEN   = os.getenv("BOT_TOKEN", "8558886316:AAG3qGKnqX_o2nBb0NVRlM4E8B4oxRpCzKo")
-OWNER_ID    = int(os.getenv("OWNER_ID", "0"))  # set via env or hardcode
+OWNER_ID    = int(os.getenv("OWNER_ID", "8919487892"))  # set via env or hardcode
 BOT_NAME    = "OGGY SITE CHKR"
 WATERMARK   = "🛒 OGGY SITE CHKR"
 
